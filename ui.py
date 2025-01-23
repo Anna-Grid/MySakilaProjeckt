@@ -90,12 +90,4 @@ def get_actor_and_year() -> Tuple[str, int]:
                 return actor, year
         except ValueError:
             print("Error: Please enter the year in numeric format.")
-
-
-def get_exit():
-    """
-    Displays a goodbye message and exits the application.
-    """
-    print("\nThank you for using the Movie Database. Goodbye!")
-    sys.exit(0) 
         
